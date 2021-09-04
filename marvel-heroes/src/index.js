@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'mdbreact/dist/css/mdb.css';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
 
@@ -9,6 +10,7 @@ import 'jquery/dist/jquery.js';
 import 'popper.js/dist/popper.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import '@fortawesome/fontawesome-free/css/fontawesome.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
