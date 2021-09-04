@@ -1,12 +1,14 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Navbar, Container } from "react-bootstrap";
 
 export class Header extends React.Component {
     render() {
         return(
-            <Container >
-                Hero Team
+        <Navbar bg="dark" variant="dark">
+            <Container>
+                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
             </Container>
+        </Navbar>
         )
     }
 }
